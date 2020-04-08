@@ -39,10 +39,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Pocket mode
-PRODUCT_PACKAGES += \
-    OnePlusPocketMode
-
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
